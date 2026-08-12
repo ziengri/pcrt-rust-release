@@ -51,7 +51,7 @@ for binary in \
   copy_binary "$binary"
 done
 
-for config in config.env door_gateway.env processor.env uploader.env updater.env; do
+for config in config.env door_gateway.env processor.env uploader.env updater.env modem-watchdog.env; do
   copy_file "${PROJECT_ROOT}/${config}"
 done
 
